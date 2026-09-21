@@ -9,6 +9,10 @@ Usage: python3 packaging/make_icon.py <out.iconset>
 
 from __future__ import annotations
 
+import utils.clients
+import utils.http_session
+import utils.transport
+import utils.session
 import sys
 from pathlib import Path
 
